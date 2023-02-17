@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="topbar">
+        <ul style="list-style-type: none;">
+            <li> <button style="margin-top: 16px;" class="btn btn-primary" id="Button1" type="button"  onclick="switchVisible();">Menu</button> </li>
+            <!-- <li> <a><i style="color: white;" clbuttonss="bi bi-three-dots"></i></a> </li> -->
+          </ul>
+    </div>
+
+    <div id="Dropdown" style="display: none;">
+        <ul style="list-style-type: none;">
+            <li><a href="">Home</a></li>
+            <li><a href="Rainbow.html">Rainbow six siege</a></li>
+            <li><a href="Minecraft.html">Minecraft</a></li>
+            <li><a href="Rocket.html">rocket league</a></li>
+        </ul>
+    </div>
+
+
+
+    <div class="page">
+        <div class="d-flex" style="padding: 13px">
+            <div style="padding: 5px;" class="w-75">
+                <h1>Rainbow six siege</h1>
+                <div>Tom Clancy's Rainbow Six: Siege is een first-person shooter ontwikkeld door Ubisoft Montreal. Het spel werd uitgegeven door Ubisoft op 1 december 2015 voor PlayStation 4, Playstation 5, Windows en Xbox One.
+
+                    Tom Clancy's Rainbow 6: Patriots was initieel in ontwikkeling voor de PlayStation 3 en Xbox 360. Nadat de opvolgers van beide consoles waren aangekondigd, besloten de ontwikkelaars dat de ideeën voor het spel beter geschikt waren voor de nieuwe consoles en om alle ontwikkeling voor Patriots te stoppen en vanaf nul te beginnen aan Rainbow Six: Siege.[1]
+                    
+                    Het spel heeft begin januari 2019 12 seizoenen en 44 operators. Iedere operator heeft zijn eigen specialiteit. Elk seizoen komt er 1 operator bij: meestal zijn dit een aanvaller of een verdediger. </div>
+                <!-- <div>Rocket League is een voetbalachtig computerspel, dat gespeeld wordt met in-game voertuigen. Rocket League is ontwikkeld en uitgegeven door Psyonix. In het spel besturen spelers een voertuig waarmee ze moeten proberen doelpunten te scoren op een veld dat overeenkomsten vertoont met een voetbalveld. Het spel is beschikbaar voor Nintendo Switch, PlayStation 4, PlayStation 5, Xbox One, Microsoft Windows en Linux. Tijdens online wedstrijden is er volledige cross-platform voorzien. Hierdoor kunnen spelers van alle bovenstaande platformen samen spelen. </div> -->
+                <div class="kaart ">
+                </div>
+            </div>
+            <div class="w-25">
+                <img style="width: 100%" src="..\Fotos\rainbow.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+function switchVisible() {
+    if (document.getElementById('Dropdown')) {
+
+        if (document.getElementById('Dropdown').style.display == 'none') {
+            document.getElementById('Dropdown').style.display = 'block';
+            document.getElementById('Dropdown').style.height = '100px';
+            // document.getElementById('Div2').style.display = 'none';
+        }
+        else {
+            document.getElementById('Dropdown').style.display = 'none';
+            document.getElementById('Dropdown').style.height = '0px';
+            // document.getElementById('Div2').style.display = 'block';
+        }
+    }
+}
+</script>
+</html>
