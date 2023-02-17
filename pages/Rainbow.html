@@ -19,17 +19,18 @@
     </div>
 
     <div id="Dropdown" style="display: none;">
-        <ul style="list-style-type: none;">
-            <li><a href="">Home</a></li>
-            <li><a href="Rainbow.html">Rainbow six siege</a></li>
-            <li><a href="Minecraft.html">Minecraft</a></li>
-            <li><a href="Rocket.html">rocket league</a></li>
+        <ul style="list-style-type: none; margin-left: -34px;">
+            <li><a class="btn btn-primary" href="">Home</a></li>
+            <li><a class="btn btn-primary" href="Rainbow.html">Rainbow six siege</a></li>
+            <li><a class="btn btn-primary" href="Minecraft.html">Minecraft</a></li>
+            <li><a class="btn btn-primary" href="Rocket.html">rocket league</a></li>
         </ul>
     </div>
 
 
 
     <div class="page">
+
         <div class="d-flex" style="padding: 13px">
             <div style="padding: 5px;" class="w-75">
                 <h1>Rainbow six siege</h1>
@@ -43,8 +44,20 @@
                 </div>
             </div>
             <div class="w-25">
-                <img style="width: 100%" src="..\Fotos\rainbow.jpg" alt="">
+                <img style="width: 100%" src="..\Fotos\R6s\rainbow.jpg" alt="">
             </div>
+        </div>
+            <div style="padding: 13px; border: 1px solid grey;"><h1> Gameplay </h1>
+                <div class="d-flex" style="padding: 0px 13px 13px 13px">
+                    <img style="padding: 15px; width: 260px; height:auto;" src="..\Fotos\R6s\foto1.jpg" alt="">
+                    <img style="padding: 15px; width: 260px; height:auto;" src="..\Fotos\R6s\foto2.jpg" alt="">
+                    <img style="padding: 15px; width: 260px; height:auto;" src="..\Fotos\R6s\foto3.jpg" alt="">
+                    <img style="padding: 15px; width: 260px; height:auto;" src="..\Fotos\R6s\foto4.jpg" alt="">
+                    <img style="padding: 15px; width: 260px; height:auto;" src="..\Fotos\R6s\foto5.jpg" alt="">
+                </div>
+            </div>
+        <div>
+
         </div>
     </div>
 
@@ -69,14 +82,13 @@
 
 
 
-
 <script>
 function switchVisible() {
     if (document.getElementById('Dropdown')) {
 
         if (document.getElementById('Dropdown').style.display == 'none') {
-            document.getElementById('Dropdown').style.display = 'block';
-            document.getElementById('Dropdown').style.height = '100px';
+            document.getElementById('Dropdown').style.display = 'inline';
+            document.getElementById('Dropdown').style.height = 'auto';
             // document.getElementById('Div2').style.display = 'none';
         }
         else {
