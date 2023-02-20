@@ -13,23 +13,89 @@
 <body>
     <div class="topbar">
         <ul style="list-style-type: none;">
-            <li> <button class="btn btn-primary" id="Button1" type="button"  onclick="switchVisible();">Menu</button> </li>
+            <li> <button style="margin-top: 16px;" class="btn btn-primary" id="Button1" type="button"  onclick="switchVisible();">Menu</button> </li>
             <!-- <li> <a><i style="color: white;" clbuttonss="bi bi-three-dots"></i></a> </li> -->
           </ul>
     </div>
 
-
-
     <div id="Dropdown" style="display: none;">
-        <ul style="list-style-type: none;">
-            <li><a href="">Home</a></li>
-            <li><a href="Rainbow.html">Rainbow six siege</a></li>
-            <li><a href="Minecraft.html">Minecraft</a></li>
-            <li><a href="Rocket.html">rocket league</a></li>
+        <ul style="list-style-type: none; margin-left: -34px;">
+            <li><a class="btn btn-primary" href="">Home</a></li>
+            <li><a class="btn btn-primary" href="Rainbow.html">Rainbow six siege</a></li>
+            <li><a class="btn btn-primary" href="Minecraft.html">Minecraft</a></li>
+            <li><a class="btn btn-primary" href="Rocket.html">rocket league</a></li>
         </ul>
     </div>
-</body>
 
+
+
+    <div class="page">
+
+        <div class="d-flex mb-2" style="padding: 13px; border: 1px solid grey;">
+            <div style="padding: 5px;position: relative;" class="w-75">
+                <h1>Minecraft</h1>
+                <div>Minecraft is a sandbox game developed by Mojang Studios. The game was created by Markus "Notch" Persson in the programming launguage Java. Following several early private testing versions, it was first made public in May 2009 before being fully released in November 2011, with Notch stepping down and Jens "Jeb" Bergensten taking over development. Minecraft is the best-selling video game in history, with over 238 million copies sold and nearly 140 million monthly active players as of 2021 and has been ported to several platforms. </div>
+                <div class="d-flex" style="position:absolute; left: 10px; bottom: 10px;">
+                    <h5><span class="me-2 badge bg-info">Creative</span></h5>
+                    <h5><span class="me-2 badge bg-info">Multiplayer</span></h5>
+                    <h5><span class="me-2 badge bg-info">Block game</span></h5>
+                    <h5><span class="me-2 badge bg-info">Survival</span></h5>
+                    <h5><span class="me-2 badge bg-info">Sand-Box</span></h5>
+                </div>
+            </div>
+            <div class="w-25">
+                <img style="width: 100%" src="..\Fotos\Minecraft\avatar.jpg" alt="">
+            </div>
+        </div>
+            <div class="mb-2" style="padding: 13px; border: 1px solid grey;"><h1> Gameplay </h1>
+                <div  class="d-flex" style="padding: 0px 13px 13px 13px">
+                    <img style="padding: 15px; width: 250px; height:auto;" src="..\Fotos\Minecraft\foto1.jpg" class="bg-image hover-zoom" alt="">
+                    <img style="padding: 15px; width: 250px; height:auto;" src="..\Fotos\Minecraft\foto2.jpg" class="bg-image hover-zoom" alt="">
+                    <img style="padding: 15px; width: 250px; height:auto;" src="..\Fotos\Minecraft\foto3.jpg" class="bg-image hover-zoom" alt="">
+                    <img style="padding: 15px; width: 250px; height:auto;" src="..\Fotos\Minecraft\foto4.jpg" class="bg-image hover-zoom" alt="">
+                    <img style="padding: 15px; width: 250px; height:auto;" src="..\Fotos\Minecraft\foto5.png" class="bg-image hover-zoom" alt="">
+                </div>
+            </div>
+        <div>
+
+        </div>
+
+
+        <div class="mb-2" style="padding: 13px; border: 1px solid grey;">
+            <h2>Systeemeisen</h2>
+            <div>
+                <div>Operating System: Windows 7 of hoger</div>
+                <div>Processor: Intel Core i3-3210 3.2 GHz / AMD A8-7600 APU 3.1 GHz</div>
+                <div>RAM: 2 GB of hoger</div>
+                <div>Video card: Geïntegreerd: Intel HD Graphics 4000 (Ivy Bridge) of AMD Radeon R5 series (Kaveri line) met OpenGL 4.41 Inbouw: Nvidia GeForce 400 Series of AMD Radeon HD 7000 series met OpenGL 4.4</div>
+                <div>Hard Drive: 43.8 GB</div>
+            </div>
+        </div>
+
+
+        <div style="padding: 13px; border: 1px solid grey;">
+            <h2>Recenties</h2>
+            <ul>
+                <li>Minecraft is een perfect spel als je je creativiteit op de vrije loop wilt laten. Bouw gigantische steden, grote kastelen, piramides in de woestijn. Graaf tunnels en ontdek enorme groten met grondstoffen zoals steenkool, ijzererts, goud en diamanten. Maak je eigen gereedschappen, verbouw je eigen voedsel. Overleef de duistere nacht....</li>
+                <li>Minecraft: Java Edition is de "goede" minecraft. Minecraft for Windows of ook wel Bedrock edition genoemd is de meer buggy variant van minecraft en heeft ook een heel ander team die daar aan werkt. Als je niet weet welke je moet kopen koop Minecraft: Java Edition.</li>
+                <li>Zeer uitgebreid spel en 1000e verschillende servers&mods dus je hoeft je nooit te vervelen. Updates maken het spel ook veel leuker.</li>
+                <li>Mooi spel waar je veel uren in kwijt kan raken. Met mods nog beter maar mist als beginner een zetje in de juiste richting door afwezigheid van wat (optionele doelen) waardoor starten voor sommige lastig kan zijn.</li>
+            </ul>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+</body>
 
 
 
@@ -46,8 +112,8 @@ function switchVisible() {
     if (document.getElementById('Dropdown')) {
 
         if (document.getElementById('Dropdown').style.display == 'none') {
-            document.getElementById('Dropdown').style.display = 'block';
-            document.getElementById('Dropdown').style.height = '100px';
+            document.getElementById('Dropdown').style.display = 'inline';
+            document.getElementById('Dropdown').style.height = 'auto';
             // document.getElementById('Div2').style.display = 'none';
         }
         else {
