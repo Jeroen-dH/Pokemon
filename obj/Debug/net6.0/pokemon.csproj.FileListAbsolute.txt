@@ -1,0 +1,15 @@
+C:\Users\Jeroen\source\repos\pokemon\bin\Debug\net6.0\pokemon.exe
+C:\Users\Jeroen\source\repos\pokemon\bin\Debug\net6.0\pokemon.deps.json
+C:\Users\Jeroen\source\repos\pokemon\bin\Debug\net6.0\pokemon.runtimeconfig.json
+C:\Users\Jeroen\source\repos\pokemon\bin\Debug\net6.0\pokemon.dll
+C:\Users\Jeroen\source\repos\pokemon\bin\Debug\net6.0\pokemon.pdb
+C:\Users\Jeroen\source\repos\pokemon\obj\Debug\net6.0\pokemon.csproj.AssemblyReference.cache
+C:\Users\Jeroen\source\repos\pokemon\obj\Debug\net6.0\pokemon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jeroen\source\repos\pokemon\obj\Debug\net6.0\pokemon.AssemblyInfoInputs.cache
+C:\Users\Jeroen\source\repos\pokemon\obj\Debug\net6.0\pokemon.AssemblyInfo.cs
+C:\Users\Jeroen\source\repos\pokemon\obj\Debug\net6.0\pokemon.csproj.CoreCompileInputs.cache
+C:\Users\Jeroen\source\repos\pokemon\obj\Debug\net6.0\pokemon.dll
+C:\Users\Jeroen\source\repos\pokemon\obj\Debug\net6.0\refint\pokemon.dll
+C:\Users\Jeroen\source\repos\pokemon\obj\Debug\net6.0\pokemon.pdb
+C:\Users\Jeroen\source\repos\pokemon\obj\Debug\net6.0\pokemon.genruntimeconfig.cache
+C:\Users\Jeroen\source\repos\pokemon\obj\Debug\net6.0\ref\pokemon.dll
