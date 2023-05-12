@@ -1,42 +1,42 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
+using System.Security.Cryptography.X509Certificates;
 
 class Program
 {
     public static void Main(string[] args)
     {
-        pokemon charmander = new pokemon("beef", "fire", 100);
-        Console.WriteLine(charmander.getName());
-        Console.WriteLine(charmander.getType());
-    }
-}
+        bool YesOrNo = true;
 
-class pokemon
-{
-    public String name;
-    public String type;
-    public int hp;
+        charmander charmander = new charmander("Charmander", "fire", "water", 100);
 
-    public pokemon(string name, string type, int hp)
-    {
-        this.name = name;
-        this.type = type;
-        this.hp = hp;
-    }
-    public string getName()
-    {
-        return name;
-    }
-    public string getType()
-    {
-        return type;
-    }
+        while (YesOrNo)
+        {
+            Console.WriteLine("Enter charmander's name:");
+            string PokemonName = Console.ReadLine();
+            charmander.setName(PokemonName);
 
-    public void setName(string name)
-    {
-        this.name = name;
-    }
-    public void setType(string type)
-    {
-        this.type = type;
+
+            Console.WriteLine("Name: " + charmander.getName());
+            Console.WriteLine("Type: " + charmander.getType());
+            Console.WriteLine("Weakness: " + charmander.weakness);
+            Console.WriteLine("HP: " + charmander.hp);
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("battle cry: " + PokemonName);
+            }
+
+            Console.WriteLine("Do you want to continue? (y/n):");
+            string awnser = Console.ReadLine();
+            if (awnser == "y")
+            {
+                YesOrNo = true;
+            }
+            else
+            {
+                YesOrNo = false;
+            }
+        }
     }
 }
